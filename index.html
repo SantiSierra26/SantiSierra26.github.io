@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="autor" content="Santiago S" />
+  <meta name="descripcion" content="Esta página es un intento de programación Web." />
+  <title>My First Web Page</title>
+  <link rel="icon" href="html5-logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="main.css" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>My goals for the year</h1>
+    <nav aria-label="primary-navigation">
+      <ul>
+        <li>
+          <a href="#html">Learning HTML</a>
+        </li>
+        <li>
+          <a href="#vacation">Planning a vacation</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <hr />
+  <main>
+    <article id="html">
+      <!-- Un articulo contiene un tema especifico, mientras que una sección es más general. -->
+      <h2>This is my first web page.</h2>
+      <p>
+        I am learning <em>web development</em> and I am pretty excited. It is
+        amazing that everyone could learn how to develop a web page
+        <strong>for free.</strong>
+        <abbr title="Visual Studio">
+          <a href="https://code.visualstudio.com/">VS</a>
+        </abbr>
+        helps a lot in the process.
+      </p>
+      <section>
+        <h3>HTML5</h3>
+        <figure>
+          <img src="img/dignity-icon.png" alt="Wallpaper" title="This is an image" width="200" height="200"
+            loading="lazy" />
+          <figcaption>Family icon</figcaption>
+        </figure>
+
+        <br />
+
+        <figure>
+          <figcaption>This is an example of HTML5 code:</figcaption>
+          <p>
+            <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+          </p>
+        </figure>
+      </section>
+
+      <section>
+        <h3>My daily schedule</h3>
+        <p>Let me tell you how:</p>
+        <ol>
+          <li>...I learn more about web dev..</li>
+          <li>...I plan out my schedule.</li>
+        </ol>
+        <aside>
+          <details>
+            <summary>
+              Guess the <mark>number of hours </mark> I code per day.
+            </summary>
+            <p>
+              I start at <time datetime="08:00">8 am</time> and I write code
+              for <time datetime="PT3H">3 hours</time> every morning.
+            </p>
+          </details>
+        </aside>
+      </section>
+    </article>
+
+    <hr />
+
+    <article id="vacation">
+      <h2>I am also planning a Vacation</h2>
+      <p>I have been working hard and <em>really need a getaway</em>.</p>
+
+      <section>
+        <h3>Places I would like to visit</h3>
+        <ul>
+          <li>
+            <p>This are some places that I have seen on Instagram.</p>
+          </li>
+          <li>
+            <p>I have heard good things about them:</p>
+            <address>
+              El Rodadero Santa Marta<br />
+              Playa Blanca Santa Marta<br />
+            </address>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Places I want to avoid</h3>
+        <dl>
+          <dt>North Pole</dt>
+          <dd>I hear this is <strong>cold</strong>!</dd>
+
+          <dt>South Pole</dt>
+          <dd>This is also cold.</dd>
+
+          <dt>Mountain tops</dt>
+          <dd>These are also cold.</dd>
+        </dl>
+      </section>
+    </article>
+  </main>
+  <!-- Continuar en el capítulo 8 -->
+
+  <hr />
+
+  <br /><br /><br /><br /><br />
+
+  <footer>
+    <p>&lt;&lt; <a href="about.html">Santiago S</a> &gt;&gt;</p>
+    <p>
+      <a href="#">Back to Top</a>
+    </p>
+  </footer>
+</body>
+
+</html>
