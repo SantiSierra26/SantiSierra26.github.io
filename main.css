@@ -1,0 +1,37 @@
+html {
+    font-size: 22px
+}
+
+body {
+    background-color: #333;
+    color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+}
+
+a {
+    color:aliceblue
+}
+
+a:visited {
+    color: lightgray;
+}
+
+a:hover, a:active {
+    color: #eee;
+}
+
+img {
+    border: 2px dashed aliceblue;
+    border-radius: 10px;
+    width: 216px;
+    height: 222.4px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
